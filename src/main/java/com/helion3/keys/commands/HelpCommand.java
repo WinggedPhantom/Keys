@@ -45,7 +45,6 @@ public class HelpCommand {
                     source.sendMessage(Format.message("/unlock", TextColors.GRAY, " - Unlock an block."));
                     source.sendMessage(Format.message("/keys add [player]", TextColors.GRAY, " - Add a player to a locked block."));
                     source.sendMessage(Format.message("/keys del [player]", TextColors.GRAY, " - Remove a player's access to a locked block."));
-                    source.sendMessage(Format.message("/keys reload", TextColors.GRAY, " - Reload configuration."));
                     return CommandResult.empty();
                 }
             }).build();

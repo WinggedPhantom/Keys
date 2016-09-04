@@ -59,8 +59,8 @@ public class KeysCommands {
                 @Override
                 public CommandResult execute(CommandSource src, CommandContext args) throws CommandException {
                     src.sendMessage(Text.of(
-                        Format.heading(TextColors.GRAY, "By ", TextColors.GOLD, "viveleroi.\n"),
-                        TextColors.GRAY, "IRC: ", TextColors.WHITE, "irc.esper.net #helion3\n"
+                        Format.heading(TextColors.GRAY, "Use ", TextColors.GOLD, "/keys help\n"),
+                        TextColors.GRAY, "By: ", TextColors.GOLD, "#Phantom\n"
                     ));
                     return CommandResult.empty();
                 }
